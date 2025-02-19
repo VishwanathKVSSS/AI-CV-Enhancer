@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # Load API Key from .env
 client = OpenAI(
-  api_key="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"
+  api_key="API Key"
 )
 app = FastAPI()
 
